@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: linear-gradient(to right, #81ceb3 0%, #4668c6 50%, #2a0d9d 100%);
+}
+
+.container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 250px;
+    background-color: #ddd;
+    border-radius: 20px;
+}
+
+h1 {
+    color:#fff;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid #007bff;
+    padding: 10px;
+    margin-top: 20px;
+    font-style: normal;
+    background-color: #007bff
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.result-container {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#bmi-value, #bmi-category {
+    text-align: center;
+    font-size: 18px;
+}
+
+#bmi-value {
+    margin-bottom: 10px;
+}
+
+#bmi-category {
+    font-weight: bold;
+}
